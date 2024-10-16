@@ -1,0 +1,13 @@
+*.o
+*.so
+*.log
+*.pyc
+/dist/
+/build/
+/.eggs/
+/hdhr.egg-info
+/bin
+/include
+/lib
+/local
+/venv
