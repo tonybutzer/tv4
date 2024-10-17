@@ -66,6 +66,47 @@ class CHANNEL:
         
 
 
+class TITAN_NOW:
+
+
+    def __init__(self, file):
+        # print('init')
+        with open(file) as fd:
+            self.doc = xmltodict.parse(fd.read())
+
+
+    def title(self):
+        _title = self.doc['tv-viewer-info']['program']['program-title'].replace(' ', '_').replace('/','_')
+        return _title
+
+    def episode(self):
+        d = self.doc['tv-viewer-info']['program']
+        
+        if 'episode-title' in d:
+            _title = self.doc['tv-viewer-info']['program']['episode-title'][0:30].replace(' ', '_')
+        else:
+            _title=''
+        return _title
+
+    def info(self):
+        self.info = self.doc['tv-viewer-info']['program']
+        print(self.info)
+
+
+    def duration(self):
+        _duration= self.doc['tv-viewer-info']['program']['duration']
+        (hrs, minutes) = _duration.split(':')
+        my_minutes = int(hrs)* 60 + int(minutes)
+        return my_minutes
+
+    def human_channel(self):
+        psip_major = self.doc['tv-viewer-info']['program']['psip-major']
+        psip_minor = self.doc['tv-viewer-info']['program']['psip-minor']
+        human_channel = f'{psip_major}.{psip_minor}'
+        print(human_channel)
+        return float(human_channel)
+
+
 class TITAN:
 
     def _convert_gmt_local(self, date, time):

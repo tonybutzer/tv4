@@ -41,4 +41,4 @@ for job in jobs[0:-1]:
         rec_time = convert_gmt_local(sd,st) 
 
         print(rec_time, the_file, jobn)
-    except: print("bummer")
+    except: print("bummer", jobn, the_file)

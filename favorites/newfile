@@ -1,0 +1,17 @@
+<tv-program-info version="1.0">
+<program>
+<station>KELO-TV</station>
+<tv-mode>digital</tv-mode>
+<program-title>KELOLAND This Morning at 5:30 AM</program-title>
+<program-description>Overnight and early morning news events affecting the region and the nation, as well as weather and traffic conditions are presented by the KELOLAND News Team.</program-description>
+<start-date>20241019</start-date>
+<start-time>10:30</start-time>
+<end-date>20241019</end-date>
+<end-time>11:00</end-time>
+<duration>00:30</duration>
+<rf-channel>11</rf-channel>
+<psip-major>11</psip-major>
+<psip-minor>1</psip-minor>
+<stream-number>1</stream-number>
+</program>
+</tv-program-info>

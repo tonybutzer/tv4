@@ -7,6 +7,6 @@ program = sys.argv[1]
 
 print(program)
 
-os.chdir('/home/tony/opt/tv/gui')
+os.chdir('/home/tony/opt/tv4/gui')
 
 rec_main(program)

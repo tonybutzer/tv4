@@ -8,7 +8,53 @@ import subprocess
 import signal, datetime
 import logging
 import heapq
-from classes import TITAN, CHANNEL, uniquify, state_recording
+from classes import TITAN_NOW, TITAN, CHANNEL, uniquify, state_recording
+
+def rec_now(titan_file):
+    
+    global logfile
+    logfile = 'recorder.log'
+    FORMAT = "%(asctime)-15s: %(message)s"
+    logging.basicConfig(level=logging.INFO, filename=logfile, filemode='w',
+                        format=FORMAT)
+
+
+    logging.info("Main process PID: %d, use this for sending SIGHUP "
+                 "for re-reading the schedule-file", os.getpid())
+
+    print("hello tony")  
+
+    t=TITAN_NOW(titan_file)
+    prog_name=t.title() + '_' + t.episode()
+
+    
+    basedir = '/home/tony/tv/video'
+ 
+    now = datetime.datetime.now()
+
+    start = now
+    period = t.duration()
+    if period > 60:
+        period = period + 60
+
+    print(f'period = {period}')
+
+    # channel='21'
+    # subchannel='4'
+
+    c = CHANNEL()
+
+    human_channel = t.human_channel()
+    print(f'human = {human_channel}')
+
+    channel, subchannel = c.phys(human_channel)
+    print( channel, subchannel )
+
+    jb = JOB(basedir, prog_name, start, period, channel, subchannel)
+    state_recording(titan_file)
+    
+    jb.record()
+
 
 def rec_main(titan_file):
     

@@ -2,6 +2,9 @@
 
 # /data/miniconda3/envs/tv/bin/python
 
+# sets the python environment
+# calls titan_record.pl to babysit the recoding for the duration
+
 source /data/miniconda3/etc/profile.d/conda.sh \
 	&& conda activate tv \
 	&& conda env list \
