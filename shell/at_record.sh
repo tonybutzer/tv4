@@ -5,6 +5,8 @@
 # sets the python environment
 # calls titan_record.pl to babysit the recoding for the duration
 
+echo at_record $1 >> /tmp/atlog.log
+
 source /data/miniconda3/etc/profile.d/conda.sh \
 	&& conda activate tv \
 	&& conda env list \
