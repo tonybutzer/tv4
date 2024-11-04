@@ -1,7 +1,4 @@
-PIP=pip3 install --user .
-PIPR=pip install .
-build:
-	${PIP}
+PIPR=pip install -e .
 
 build-root:
 	${PIPR}

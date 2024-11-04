@@ -9,7 +9,7 @@
 import os
 
 
-from libtv.da import da_today_is_weekday, da_convert_gmt_local, da_today_date_str, da_convert_gmt_local_time, da_convert_local_gmt_date, da_local_local
+from libtv.da import da_today_is_weekday, da_convert_gmt_local, da_today_date_str, da_convert_gmt_local_time, da_convert_local_gmt_date
 from libtv.xm import xm_get_download_files, xm_get_favorite_files
 from libtv.at import at_schedule_record
 import xmltodict
@@ -32,8 +32,6 @@ def record_me_today(fav, doc):
     time_str = doc['tv-program-info']['program']['start-time']
     at_time_str = da_convert_gmt_local(today_date_str, time_str)
     local_time_str = da_convert_gmt_local_time(start_date, time_str)
-    at_time_str = da_local_local(today_date_str, local_time_str)
-
     print('AT',at_time_str)
     gmt_today_date_str = da_convert_local_gmt_date(today_date_str, local_time_str)
     print('hi', gmt_today_date_str, today_date_str, time_str)

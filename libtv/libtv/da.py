@@ -23,6 +23,12 @@ def da_today_date_str():
     return(date_str)
 
 
+def da_local_local(date, time):
+    mytime = f"{date} {time}"
+    dtobj = datetime.strptime(mytime, '%Y%m%d %H:%M')
+    a = dtobj
+    return(a.strftime('%Y%m%d%H%M'))
+
 def da_convert_gmt_local(date, time):
     mytime = f"{date} {time} GMT"
     dtobj = datetime.strptime(mytime, '%Y%m%d %H:%M %Z')
