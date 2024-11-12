@@ -13,7 +13,15 @@ from classes import TITAN_NOW, TITAN, CHANNEL, uniquify, state_recording
 def rec_now(titan_file):
     
     global logfile
-    logfile = 'recorder.log'
+
+    # Get current date and time
+    now = datetime.datetime.now()
+    # Format the date and time as desired
+    filename = now.strftime("%Y-%m-%d_%H-%M-%S")   # Example: 2023-11-11_23-59-59.txt
+
+    logfile = f'./log/{filename}_recorder.log'
+    print('LOGFILE:', logfile)
+    #logfile = 'recorder.log'
     FORMAT = "%(asctime)-15s: %(message)s"
     logging.basicConfig(level=logging.INFO, filename=logfile, filemode='w',
                         format=FORMAT)
@@ -59,7 +67,13 @@ def rec_now(titan_file):
 def rec_main(titan_file):
     
     global logfile
-    logfile = 'recorder.log'
+    # Get current date and time
+    now = datetime.datetime.now()
+    # Format the date and time as desired
+    filename = now.strftime("%Y-%m-%d_%H-%M-%S")   # Example: 2023-11-11_23-59-59.txt
+
+    logfile = f'./log/{filename}_recorder.log'
+    print('LOGFILE:', logfile)
     FORMAT = "%(asctime)-15s: %(message)s"
     logging.basicConfig(level=logging.INFO, filename=logfile, filemode='w',
                         format=FORMAT)
