@@ -1,0 +1,7 @@
+2024-12-21 19:10:05,488: Main process PID: 194002, use this for sending SIGHUP for re-reading the schedule-file
+2024-12-21 19:10:05,662: Started recording 2024-25_College_Football_Playoff_First_Round:_Tennessee_Volunte on device: (107078C9, 0, 13:3)
+2024-12-21 19:10:05,664: ['/usr/bin/hdhomerun_config', '107078C9', 'set', '/tuner0/channel', '13']
+2024-12-21 19:10:05,709: ['/usr/bin/hdhomerun_config', '107078C9', 'set', '/tuner0/program', '3']
+2024-12-21 19:10:05,734: ['/usr/bin/hdhomerun_config', '107078C9', 'save', '/tuner0', '/home/tony/tv/video/2024-25_College_Football_Playoff_First_Round:_Tennessee_Volunte__2024-12-21.mpg']
+2024-12-21 23:30:04,911: Ended recording 2024-25_College_Football_Playoff_First_Round:_Tennessee_Volunte on device: (107078C9, 0, 13:3), status: unable to create file /home/tony/tv/video/2024-25_College_Football_Playoff_First_Round:_Tennessee_Volunte__2024-12-21.mpg
+

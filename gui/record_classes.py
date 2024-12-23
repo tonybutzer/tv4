@@ -252,15 +252,18 @@ class JOB:
         filename = uniquify(filename)
         cmd = [hdhomerun_config, device_id, "set"]
         cmd.extend(["/tuner%s/channel" % tuner_num, self.channel])
+        logging.info(cmd);
         subprocess.Popen(cmd).wait()
 
         cmd = [hdhomerun_config, device_id, "set"]
         cmd.extend(["/tuner%s/program" % tuner_num, self.subchannel])
+        logging.info(cmd);
         subprocess.Popen(cmd).wait()
 
         cmd = [hdhomerun_config, device_id, "save"]
         cmd.extend(["/tuner%s" % tuner_num, filename])
         f = tempfile.TemporaryFile("w+")
+        logging.info(cmd);
         p = subprocess.Popen(cmd, stdout=f, stderr=subprocess.STDOUT)
 
         # Record from now to the end of the program.

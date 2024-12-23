@@ -121,7 +121,11 @@ class TITAN:
 
     def _set_local_start_stop(self):
         #print(self.doc)
-        self.gmt_start_time= self.doc['tv-program-info']['program']['start-time']
+        try:
+            self.gmt_start_time= self.doc['tv-program-info']['program']['start-time']
+        except:
+            print("no start time")
+
         self.gmt_start_date= self.doc['tv-program-info']['program']['start-date']
         self.gmt_end_time= self.doc['tv-program-info']['program']['end-time']
         self.gmt_end_date= self.doc['tv-program-info']['program']['end-date']

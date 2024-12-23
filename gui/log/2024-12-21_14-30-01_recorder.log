@@ -1,0 +1,7 @@
+2024-12-21 14:30:01,796: Main process PID: 190603, use this for sending SIGHUP for re-reading the schedule-file
+2024-12-21 14:30:03,832: Started recording College_Football_FCS_Football_Championship:_Sem on device: (107078C9, 2, 13:3)
+2024-12-21 14:30:03,833: ['/usr/bin/hdhomerun_config', '107078C9', 'set', '/tuner2/channel', '13']
+2024-12-21 14:30:03,879: ['/usr/bin/hdhomerun_config', '107078C9', 'set', '/tuner2/program', '3']
+2024-12-21 14:30:03,900: ['/usr/bin/hdhomerun_config', '107078C9', 'save', '/tuner2', '/home/tony/tv/video/College_Football_FCS_Football_Championship:_Sem__2024-12-21.mpg']
+2024-12-21 18:30:01,003: Ended recording College_Football_FCS_Football_Championship:_Sem on device: (107078C9, 2, 13:3), status: unable to create file /home/tony/tv/video/College_Football_FCS_Football_Championship:_Sem__2024-12-21.mpg
+

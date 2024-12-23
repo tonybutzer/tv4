@@ -1,0 +1,7 @@
+2024-12-14 14:30:02,237: Main process PID: 4516, use this for sending SIGHUP for re-reading the schedule-file
+2024-12-14 14:30:03,273: Started recording College_Football_FCS_Football_Championship:_Qua on device: (107078C9, 1, 13:3)
+2024-12-14 14:30:03,274: ['/usr/bin/hdhomerun_config', '107078C9', 'set', '/tuner1/channel', '13']
+2024-12-14 14:30:03,323: ['/usr/bin/hdhomerun_config', '107078C9', 'set', '/tuner1/program', '3']
+2024-12-14 14:30:03,344: ['/usr/bin/hdhomerun_config', '107078C9', 'save', '/tuner1', '/home/tony/tv/video/College_Football_FCS_Football_Championship:_Qua__2024-12-14.mpg']
+2024-12-14 18:30:01,449: Ended recording College_Football_FCS_Football_Championship:_Qua on device: (107078C9, 1, 13:3), status: unable to create file /home/tony/tv/video/College_Football_FCS_Football_Championship:_Qua__2024-12-14.mpg
+
