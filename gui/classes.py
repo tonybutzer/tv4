@@ -145,6 +145,7 @@ class TITAN:
 
     def title(self):
         _title = self.doc['tv-program-info']['program']['program-title'].replace(' ', '_').replace('/','_')
+        _title = _title.replace('\:', '_')
         return _title
 
     def episode(self):
@@ -154,6 +155,7 @@ class TITAN:
             _title = self.doc['tv-program-info']['program']['episode-title'][0:30].replace(' ', '_')
         else:
             _title=''
+        _title = _title.replace('\:', '_')
         return _title
 
     def start_time(self):
