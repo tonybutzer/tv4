@@ -1,0 +1,9 @@
+2024-12-26 21:58:00,285: Main process PID: 1218, use this for sending SIGHUP for re-reading the schedule-file
+2024-12-26 21:58:02,332: Started recording Matlock_Claws on device: (107078C9, 2, 11:3)
+2024-12-26 21:58:02,332: ['/usr/bin/hdhomerun_config', '107078C9', 'set', '/tuner2/channel', '11']
+2024-12-26 21:58:02,752: ['/usr/bin/hdhomerun_config', '107078C9', 'set', '/tuner2/program', '3']
+2024-12-26 21:58:03,173: ['/usr/bin/hdhomerun_config', '107078C9', 'save', '/tuner2', '/home/tony/tv/video/Matlock_Claws__2024-12-26.mpg']
+20242024-12-27 00:58:00,279: Ended recording The_Year:_2024_ on device: (107078C9, 1, 13:3), status: unable to connect to device
+
+ 11:3), status: unable to connect to device
+

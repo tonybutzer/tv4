@@ -1,0 +1,7 @@
+2024-12-28 18:30:02,082: Main process PID: 24805, use this for sending SIGHUP for re-reading the schedule-file
+2024-12-28 18:30:02,103: Started recording College_Football_Alamo_Bowl:_Colorado_Buffaloes on device: (107078C9, 0, 13:3)
+2024-12-28 18:30:02,104: ['/usr/bin/hdhomerun_config', '107078C9', 'set', '/tuner0/channel', '13']
+2024-12-28 18:30:02,124: ['/usr/bin/hdhomerun_config', '107078C9', 'set', '/tuner0/program', '3']
+2024-12-28 18:30:02,145: ['/usr/bin/hdhomerun_config', '107078C9', 'save', '/tuner0', '/home/tony/tv/video/College_Football_Alamo_Bowl:_Colorado_Buffaloes__2024-12-28.mpg']
+2024-12-28 23:00:01,253: Ended recording College_Football_Alamo_Bowl:_Colorado_Buffaloes on device: (107078C9, 0, 13:3), status: unable to create file /home/tony/tv/video/College_Football_Alamo_Bowl:_Colorado_Buffaloes__2024-12-28.mpg
+

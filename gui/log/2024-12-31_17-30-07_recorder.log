@@ -1,0 +1,8 @@
+2024-12-31 17:30:07,843: Main process PID: 60385, use this for sending SIGHUP for re-reading the schedule-file
+2024-12-31 17:30:09,990: Started recording ABC_World_News_Tonight_with_David_Muir_ on device: (107078C9, 2, 13:3)
+2024-12-31 17:30:09,991: ['/usr/bin/hdhomerun_config', '107078C9', 'set', '/tuner2/channel', '13']
+2024-12-31 17:30:10,037: ['/usr/bin/hdhomerun_config', '107078C9', 'set', '/tuner2/program', '3']
+2024-12-31 17:30:10,062: ['/usr/bin/hdhomerun_config', '107078C9', 'save', '/tuner2', '/home/tony/tv/video/ABC_World_News_Tonight_with_David_Muir___2024-12-31.mpg'202024-12-31 18:00:07,186: Ended recording ABC_World_News_Tonight_with_David_Muir_ on device: (107078C9, 2, 13:3), status: .......................................................................................................................................................................................................................................................................................................................................................................................................
+-- Video statistics --
+308196 packets received, 0 overflow errors, 0 network errors, 0 transport errors, 0 sequence errors
+

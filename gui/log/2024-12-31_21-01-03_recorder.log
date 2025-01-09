@@ -1,0 +1,7 @@
+2024-12-31 21:01:03,454: Main process PID: 66636, use this for sending SIGHUP for re-reading the schedule-file
+2024-12-31 21:01:05,525: Started recording High_Potential_One_of_Us on device: (107078C9, 2, 13:3)
+2024-12-31 21:01:05,526: ['/usr/bin/hdhomerun_config', '107078C9', 'set', '/tuner2/channel', '13']
+2024-12-31 21:01:05,547: ['/usr/bin/hdhomerun_config', '107078C9', 'set', '/tuner2/program', '3']
+2024-12-31 21:01:05,571: ['/usr/bin/hdhomerun_config', '107078C9', 'save', '/tuner2', '/home/tony/tv/video/High_Potential_One_of_Us__2024-12-31.mpg']
+2024-12-31 22:00:02,674: Ended recording High_Potential_One_of_Us on device: (107078C9, 2, 13:3), status: unable to start stream
+

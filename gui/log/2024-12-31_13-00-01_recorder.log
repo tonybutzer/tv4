@@ -1,0 +1,7 @@
+2024-12-31 13:00:01,796: Main process PID: 56483, use this for sending SIGHUP for re-reading the schedule-file
+2024-12-31 13:00:01,823: Started recording College_Football_Sun_Bowl:_Louisville_Cardinals on device: (107078C9, 0, 11:3)
+2024-12-31 13:00:01,823: ['/usr/bin/hdhomerun_config', '107078C9', 'set', '/tuner0/channel', '11']
+2024-12-31 13:00:01,866: ['/usr/bin/hdhomerun_config', '107078C9', 'set', '/tuner0/program', '3']
+2024-12-31 13:00:01,887: ['/usr/bin/hdhomerun_config', '107078C9', 'save', '/tuner0', '/home/tony/tv/video/College_Football_Sun_Bowl:_Louisville_Cardinals__2024-12-31.mpg']
+2024-12-31 18:00:01,030: Ended recording College_Football_Sun_Bowl:_Louisville_Cardinals on device: (107078C9, 0, 11:3), status: unable to create file /home/tony/tv/video/College_Football_Sun_Bowl:_Louisville_Cardinals__2024-12-31.mpg
+

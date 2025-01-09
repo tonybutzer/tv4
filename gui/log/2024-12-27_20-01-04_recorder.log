@@ -1,0 +1,7 @@
+2024-12-27 20:01:04,107: Main process PID: 12870, use this for sending SIGHUP for re-reading the schedule-file
+2024-12-27 20:01:06,188: Started recording 20_20_ on device: (107078C9, 2, 13:3)
+2024-12-27 20:01:06,188: ['/usr/bin/hdhomerun_config', '107078C9', 'set', '/tuner2/channel', '13']
+2024-12-27 20:01:06,209: ['/usr/bin/hdhomerun_config', '107078C9', 'set', '/tuner2/program', '3']
+2024-12-27 20:01:06,233: ['/usr/bin/hdhomerun_config', '107078C9', 'save', '/tuner2', '/home/tony/tv/video/20_20___2024-12-27.mpg']
+2024-12-27 23:00:03,351: Ended recording 20_20_ on device: (107078C9, 2, 13:3), status: unable to start stream
+

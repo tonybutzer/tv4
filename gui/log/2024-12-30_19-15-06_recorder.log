@@ -1,0 +1,7 @@
+2024-12-30 19:15:06,100: Main process PID: 48183, use this for sending SIGHUP for re-reading the schedule-file
+2024-12-30 19:15:06,179: Started recording Monday_Night_Football_Detroit_Lions_at_San_Francisco on device: (107078C9, 0, 13:3)
+2024-12-30 19:15:06,180: ['/usr/bin/hdhomerun_config', '107078C9', 'set', '/tuner0/channel', '13']
+2024-12-30 19:15:06,205: ['/usr/bin/hdhomerun_config', '107078C9', 'set', '/tuner0/program', '3']
+2024-12-30 19:15:06,228: ['/usr/bin/hdhomerun_config', '107078C9', 'save', '/tuner0', '/home/tony/tv/video/Monday_Night_Football_Detroit_Lions_at_San_Francisco__2024-12-30.mpg']
+2024-12-30 23:15:05,369: Ended recording Monday_Night_Football_Detroit_Lions_at_San_Francisco on device: (107078C9, 0, 13:3), status: unable to start stream
+

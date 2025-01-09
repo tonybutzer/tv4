@@ -1,0 +1,7 @@
+2024-12-30 21:00:02,256: Main process PID: 49262, use this for sending SIGHUP for re-reading the schedule-file
+2024-12-30 21:00:03,294: Started recording NCISOrigins_Incognito on device: (107078C9, 1, 11:3)
+2024-12-30 21:00:03,294: ['/usr/bin/hdhomerun_config', '107078C9', 'set', '/tuner1/channel', '11']
+2024-12-30 21:00:03,314: ['/usr/bin/hdhomerun_config', '107078C9', 'set', '/tuner1/program', '3']
+2024-12-30 21:00:03,335: ['/usr/bin/hdhomerun_config', '107078C9', 'save', '/tuner1', '/home/tony/tv/video/NCISOrigins_Incognito__2024-12-30.mpg']
+2024-12-30 22:00:01,441: Ended recording NCISOrigins_Incognito on device: (107078C9, 1, 11:3), status: unable to create file /home/tony/tv/video/NCISOrigins_Incognito__2024-12-30.mpg
+

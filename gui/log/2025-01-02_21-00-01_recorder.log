@@ -1,0 +1,7 @@
+2025-01-02 21:00:01,763: Main process PID: 12010, use this for sending SIGHUP for re-reading the schedule-file
+2025-01-02 21:00:01,785: Started recording Elsbeth_Subscription_To_Murder on device: (107078C9, 0, 11:3)
+2025-01-02 21:00:01,786: ['/usr/bin/hdhomerun_config', '107078C9', 'set', '/tuner0/channel', '11']
+2025-01-02 21:00:01,806: ['/usr/bin/hdhomerun_config', '107078C9', 'set', '/tuner0/program', '3']
+2025-01-02 21:00:01,827: ['/usr/bin/hdhomerun_config', '107078C9', 'save', '/tuner0', '/home/tony/tv/video/Elsbeth_Subscription_To_Murder__2025-01-02.mpg']
+2025-01-02 22:00:00,930: Ended recording Elsbeth_Subscription_To_Murder on device: (107078C9, 0, 11:3), status: unable to start stream
+

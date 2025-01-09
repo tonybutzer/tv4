@@ -1,0 +1,7 @@
+2024-12-28 14:30:02,312: Main process PID: 21376, use this for sending SIGHUP for re-reading the schedule-file
+2024-12-28 14:30:03,349: Started recording College_Football_Pop-Tarts_Bowl:_Iowa_State_Cyc on device: (107078C9, 1, 13:3)
+2024-12-28 14:30:03,350: ['/usr/bin/hdhomerun_config', '107078C9', 'set', '/tuner1/channel', '13']
+2024-12-28 14:30:03,394: ['/usr/bin/hdhomerun_config', '107078C9', 'set', '/tuner1/program', '3']
+2024-12-28 14:30:03,415: ['/usr/bin/hdhomerun_config', '107078C9', 'save', '/tuner1', '/home/tony/tv/video/College_Football_Pop-Tarts_Bowl:_Iowa_State_Cyc__2024-12-28.mpg']
+2024-12-28 19:00:01,519: Ended recording College_Football_Pop-Tarts_Bowl:_Iowa_State_Cyc on device: (107078C9, 1, 13:3), status: unable to create file /home/tony/tv/video/College_Football_Pop-Tarts_Bowl:_Iowa_State_Cyc__2024-12-28.mpg
+
